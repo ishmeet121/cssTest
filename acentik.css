@@ -1,0 +1,865 @@
+@import '_acentrikTypography.css';
+@import '_acentrik.css';
+@import '_code.css';
+@import '_toast.css';
+@import '_fancyWeb3modal.css';
+
+.acentrik {
+  color: var(--light-text-1);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-root);
+  letter-spacing: normal;
+}
+
+.acentrik h1,
+.acentrik h2,
+.acentrik h3,
+.acentrik h4,
+.acentrik h5,
+.acentrik h6 {
+  font-family: var(--font-family-base);
+  margin-bottom: var(--margin-0);
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.acentrik div,
+.acentrik p,
+.acentrik span,
+.acentrik button,
+.acentrik a,
+.acentrik input,
+.acentrik textarea {
+  font-family: var(--font-family-base);
+}
+
+.acentrik .MuiTypography-body1,
+.acentrik .MuiTypography-body2 {
+  font-family: var(--font-family-base);
+}
+
+.acentrik .MuiTypography-body1 {
+  font-size: var(--font-size-body-1);
+}
+
+.acentrik .MuiTypography-body2 {
+  font-size: var(--font-size-body-2);
+}
+
+.acentrik h1 {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+}
+
+.acentrik h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+}
+
+.acentrik h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+}
+
+.acentrik h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+}
+
+.acentrik h5 {
+  font-size: var(--font-size-h5);
+  line-height: var(--line-height-h5);
+}
+
+.acentrik h6 {
+  font-size: var(--font-size-h6);
+  line-height: var(--line-height-h6);
+}
+
+.acentrik p {
+  font-size: var(--acentrik-font-size-body-1);
+  line-height: var(--line-height-p);
+  margin: 0;
+}
+
+.acentrik p.body1 {
+  font-size: var(--acentrik-font-size-body-1);
+  line-height: var(--line-height-h6);
+}
+
+.acentrik p.body2 {
+  font-size: var(--acentrik-font-size-body-2);
+  line-height: var(--line-height-standard);
+}
+
+.acentrik p.subtitle {
+  font-size: var(--acentrik-font-size-subtitle-1);
+  font-weight: var(--acentrik-font-weight-medium);
+  line-height: var(--font-line-height-subtitle-1);
+}
+.acentrik p.subtitle2 {
+  font-size: var(--acentrik-font-size-subtitle-2);
+  font-weight: 500;
+  line-height: var(--line-height-caption);
+}
+
+.acentrik p.caption {
+  font-size: var(--acentrik-font-size-caption);
+  line-height: var(--line-height-caption);
+}
+
+.acentrik p.overline {
+  font-size: var(--acentrik-font-size-overline);
+  line-height: var(--line-height-standard);
+}
+
+.acentrik p.pre-title {
+  font-size: var(--acentrik-font-size-pre-title);
+  line-height: var(--line-height-standard);
+  letter-spacing: var(--letter-spacing);
+}
+
+.acentrik .bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.acentrik .semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.acentrik .center {
+  align-items: center;
+  text-align: center;
+}
+
+.acentrik .noMargin {
+  margin: 0;
+}
+
+.acentrik .medium {
+  font-weight: 500;
+}
+
+.acentrik hr {
+  border: none;
+  width: 100%;
+  height: 1px;
+  background: var(--primary-color);
+  margin-top: var(--margin-12);
+  margin-bottom: var(--margin-12);
+}
+
+.acentrik hr.dash {
+  background: transparent;
+  border: 1px dashed var(--primary-color);
+}
+
+.acentrik div > .MuiPaper-root {
+  background-color: var(--surface-1-color);
+  color: var(--light-text-1);
+  padding: var(--padding-6);
+  background-image: none;
+  box-shadow: unset;
+}
+
+.acentrik .transparent,
+.acentrik div > .transparent {
+  background-color: transparent;
+  background-image: none;
+}
+
+.MuiBox-root {
+  font-family: var(--font-family-base);
+}
+
+.acentrik .m-0 {
+  margin: var(--margin-0);
+}
+
+.acentrik .mb-0 {
+  margin-bottom: var(--margin-0);
+}
+
+.acentrik .mb-1 {
+  margin-bottom: var(--margin-1);
+}
+
+.acentrik .mb-2 {
+  margin-bottom: var(--margin-2);
+}
+
+.acentrik .mb-3 {
+  margin-bottom: var(--margin-3);
+}
+
+.acentrik .mb-4 {
+  margin-bottom: var(--margin-4);
+}
+
+.acentrik .mb-8 {
+  margin-bottom: var(--margin-8);
+}
+
+.acentrik .mb-6 {
+  margin-bottom: var(--margin-6);
+}
+
+.acentrik .mb-7 {
+  margin-bottom: var(--margin-12);
+}
+
+.acentrik .mt-1 {
+  margin-top: var(--margin-1);
+}
+
+.acentrik .mt-2 {
+  margin-top: var(--margin-2);
+}
+
+.acentrik .mt-3 {
+  margin-top: var(--margin-3);
+}
+
+.acentrik .mt-4 {
+  margin-top: var(--margin-4);
+}
+
+.acentrik .mt-5 {
+  margin-top: var(--margin-5);
+}
+
+.acentrik .mt-6 {
+  margin-top: var(--margin-6);
+}
+
+.acentrik .mt-8 {
+  margin-top: var(--margin-8);
+}
+
+.acentrik .ml-1 {
+  margin-left: var(--margin-1);
+}
+
+.acentrik .ml-2 {
+  margin-left: var(--margin-2);
+}
+
+.acentrik .ml-3 {
+  margin-left: var(--margin-3);
+}
+
+.acentrik .ml-4 {
+  margin-left: var(--margin-4);
+}
+
+.acentrik .ml-5 {
+  margin-left: var(--margin-5);
+}
+
+.acentrik .ml-6 {
+  margin-left: var(--margin-6);
+}
+
+.acentrik .ml-7 {
+  margin-left: var(--margin-7);
+}
+
+.acentrik .ml-8 {
+  margin-left: var(--margin-8);
+}
+
+.acentrik .mr-1 {
+  margin-right: var(--margin-1);
+}
+
+.acentrik .mr-2 {
+  margin-right: var(--margin-2);
+}
+
+.acentrik .mr-3 {
+  margin-right: var(--margin-3);
+}
+
+.acentrik .mr-4 {
+  margin-right: var(--margin-4);
+}
+
+.acentrik .mr-5 {
+  margin-right: var(--margin-5);
+}
+
+.acentrik .mr-6 {
+  margin-right: var(--margin-6);
+}
+
+.acentrik .mr-7 {
+  margin-right: var(--margin-7);
+}
+
+.acentrik .mr-8 {
+  margin-right: var(--margin-8);
+}
+
+.acentrik .m-auto {
+  margin: auto;
+}
+
+.acentrik .mt-auto {
+  margin-top: auto;
+}
+
+.acentrik .mb-auto {
+  margin-bottom: auto;
+}
+
+.acentrik .p-0 {
+  padding: var(--padding-0);
+}
+
+.acentrik .p-1 {
+  padding: var(--padding-1);
+}
+
+.acentrik .p-2 {
+  padding: var(--padding-2);
+}
+
+.acentrik .pl-0 {
+  padding-left: var(--padding-0);
+}
+
+.acentrik .pr-1 {
+  padding-right: var(--padding-1);
+}
+
+.acentrik .pr-2 {
+  padding-right: var(--padding-2);
+}
+
+.acentrik .pr-3 {
+  padding-right: var(--padding-4);
+}
+
+.acentrik .pr-4 {
+  padding-right: var(--padding-6);
+}
+
+.acentrik .pr-5 {
+  padding-right: var(--padding-12);
+}
+
+.acentrik .font-normal {
+  font-weight: normal;
+}
+
+.acentrik .font-lighter {
+  font-weight: lighter;
+}
+
+.acentrik .secondary-text {
+  color: var(--light-text-2);
+}
+
+.acentrik .secondary-border {
+  border-color: var(--light-text-3);
+}
+
+.acentrik-modal .modal {
+  border-radius: 5px;
+  position: absolute;
+  width: var(--acentrik-modal-width);
+  background-color: var(--default-background);
+  border: 0;
+}
+
+.acentrik .background-auth,
+.background-validate-status {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* to fixed moving bg image on dropdown expand */
+  /* background-attachment: fixed; */
+}
+
+.acentrik .background-auth {
+  /* background-image: url('../@images/acentrik/background/auth_tablet.svg'); */
+  background-color: var(--surface-0-color);
+}
+.acentrik .background-validate-status {
+  /* background-image: url('../@images/acentrik/background/validate_status_tablet.svg'); */
+  background-color: var(--surface-0-color);
+}
+
+@media (min-width: 768px) {
+  .acentrik .background-auth {
+    /* background-image: url('../@images/acentrik/background/auth_desktop.svg'); */
+    background-color: var(--surface-0-color);
+  }
+  .acentrik .background-validate-status {
+    /* background-image: url('../@images/acentrik/background/validate_status_desktop.svg'); */
+    background-color: var(--surface-0-color);
+  }
+}
+
+.acentrik .grid-center {
+  display: flex;
+  justify-content: center;
+}
+
+.acentrik .clickable {
+  cursor: pointer;
+}
+
+.acentrik .container {
+  padding-top: var(--padding-2);
+  padding-bottom: var(--padding-2);
+}
+
+.acentrik .w-100 {
+  width: 100%;
+}
+
+.acentrik .h-100 {
+  height: 100%;
+}
+
+.acentrik .d-flex {
+  display: flex;
+}
+
+.acentrik .empty-l {
+  padding: var(--padding-12);
+}
+
+.acentrik .container-right {
+  text-align: right;
+}
+
+.acentrik .float-right {
+  float: right;
+}
+
+.acentrik .btn-primary,
+.acentrik .btn-secondary {
+  text-transform: none;
+}
+
+.acentrik .btn-primary {
+  font-size: var(--font-size-root);
+  height: 36px;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--light-text-1);
+}
+
+.acentrik .btn-secondary {
+  font-size: var(--font-size-root);
+  height: 36px;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  padding-left: var(--padding-0);
+  padding-right: var(--padding-0);
+}
+
+.acentrik .card {
+  border-radius: var(--border-radius);
+  padding: var(--padding-4);
+  color: var(--primary-color);
+  background-color: var(--surface-1-color);
+}
+
+.acentrik .acentrik-text-field label,
+.acentrik .acentrik-text-field label.focused,
+.acentrik .acentrik-custom-field .MuiInputLabel-root {
+  color: var(--light-text-3);
+}
+
+.acentrik .acentrik-text-field input {
+  background-color: var(--default-background) !important;
+}
+
+.acentrik .acentrik-input,
+.acentrik .acentrik-input input {
+  color: var(--light-text-1);
+  border: var(--surface-2-color) solid 1px;
+  margin-bottom: 12px;
+  border-radius: var(--border-radius);
+  background-color: transparent;
+}
+
+.acentrik .link,
+.acentrik .link a {
+  color: var(--info-color);
+}
+
+.acentrik .link input:checked {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+}
+
+.acentrik .acentrik-custom-field {
+  border: solid 1px var(--surface-2-color);
+}
+.acentrik .hasError .acentrik-custom-field {
+  border: 1px solid var(--surface-2-color);
+}
+
+.acentrik .acentrik-input input:-internal-autofill-selected,
+.acentrik .acentrik-input:-internal-autofill-selected,
+.acentrik .acentrik-field input:-internal-autofill-selected,
+.acentrik .acentrik-field input:-webkit-autofill,
+.acentrik .acentrik-field input:-webkit-autofill:hover,
+.acentrik .acentrik-field input:-webkit-autofill:focus,
+.acentrik .acentrik-field input:-webkit-autofill:active,
+.acentrik .acentrik-field textarea:-webkit-autofill,
+.acentrik .acentrik-field textarea:-webkit-autofill:hover,
+.acentrik .acentrik-field textarea:-webkit-autofill:focus,
+.acentrik .acentrik-field select:-webkit-autofill,
+.acentrik .acentrik-field select:-webkit-autofill:hover,
+.acentrik .acentrik-field select:-webkit-autofill:focus {
+  color: var(--light-text-1);
+  background-color: var(--surface-0-color) !important;
+  box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-text-fill-color: var(--light-text-1);
+}
+
+.acentrik .fancy-paper input:-internal-autofill-selected,
+.acentrik .fancy-paper input:-webkit-autofill,
+.acentrik .fancy-paper input:-webkit-autofill:hover,
+.acentrik .fancy-paper input:-webkit-autofill:focus,
+.acentrik .fancy-paper input:-webkit-autofill:active,
+.acentrik .fancy-paper textarea:-webkit-autofill,
+.acentrik .fancy-paper textarea:-webkit-autofill:hover,
+.acentrik .fancy-paper textarea:-webkit-autofill:focus,
+.acentrik .fancy-paper select:-webkit-autofill,
+.acentrik .fancy-paper select:-webkit-autofill:hover,
+.acentrik .fancy-paper select:-webkit-autofill:focus {
+  color: var(--light-text-1);
+  background-color: var(--surface-0-color) !important;
+  box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-text-fill-color: var(--light-text-1);
+}
+
+.acentrik .fancy-grey-background {
+  background-color: var(--surface-0-color);
+}
+
+.acentrik .fancy-grey-background input:-internal-autofill-selected,
+.acentrik .fancy-grey-background input:-webkit-autofill,
+.acentrik .fancy-grey-background input:-webkit-autofill:hover,
+.acentrik .fancy-grey-background input:-webkit-autofill:focus,
+.acentrik .fancy-grey-background input:-webkit-autofill:active,
+.acentrik .fancy-grey-background textarea:-webkit-autofill,
+.acentrik .fancy-grey-background textarea:-webkit-autofill:hover,
+.acentrik .fancy-grey-background textarea:-webkit-autofill:focus,
+.acentrik .fancy-grey-background select:-webkit-autofill,
+.acentrik .fancy-grey-background select:-webkit-autofill:hover,
+.acentrik .fancy-grey-background select:-webkit-autofill:focus {
+  color: var(--light-text-1);
+  background-color: var(--surface-0-color) !important;
+  box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-box-shadow: 0 0 0 1000px var(--surface-0-color) inset;
+  -webkit-text-fill-color: var(--light-text-1);
+}
+
+.acentrik .acentrik-input::after {
+  border-color: transparent !important;
+}
+.acentrik .acentrik-input-password,
+.acentrik .acentrik-input-search {
+  border-color: transparent;
+}
+.acentrik .acentrik-input-password input,
+.acentrik .acentrik-input-search input {
+  border: var(--surface-2-color) solid 0px;
+  margin-bottom: 0;
+  padding: 0 12px 0 0;
+}
+.acentrik .acentrik-input-password input {
+  padding: 0 12px;
+}
+.acentrik .main-color {
+  color: var(--light-text-1);
+}
+
+.acentrik .carousel-full-height .CarouselItem,
+.acentrik .carousel-full-height .CarouselItem > div {
+  height: 100%;
+}
+
+.acentrik .MuiInputBase-input {
+  color: var(--light-text-1);
+  font-size: var(--acentrik-font-size-body-2);
+}
+
+.acentrik .hasError .acentrik-text-field .MuiInputBase-root,
+.acentrik .hasError .acentrik-custom-field {
+  border: 1px solid var(--danger-color);
+}
+
+.acentrik .acentrik-custom-field .MuiInputAdornment-root .MuiIconButton-root {
+  color: var(--light-text-3);
+}
+
+.acentrik .hasError .acentrik-text-field .MuiInputLabel-root,
+.acentrik .hasError .acentrik-custom-field .MuiInputLabel-root {
+  color: var(--danger-color);
+}
+
+.acentrik .MuiSwitch-colorPrimary.Mui-checked {
+  color: var(--primary-color);
+}
+.acentrik .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+  background-color: #808eb6;
+}
+
+.acentrik div.Toastify__toast-container {
+  width: fit-content;
+}
+
+.acentrik .Toastify__toast {
+  min-height: 48px;
+  min-width: max-content;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  color: var(--light-text-1);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight-regular);
+  padding: var(--padding-2) var(--padding-4);
+}
+
+.acentrik .Toastify__toast-body {
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+
+.acentrik .toast-svg {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-h3);
+}
+
+.iconSizeExtraLarge {
+  height: 28px;
+  width: 28px;
+}
+
+.iconSizeLarge {
+  height: 24px;
+  width: 24px;
+}
+
+.iconSizeMedium {
+  height: 20px;
+  width: 20px;
+}
+
+.iconSizeSmall {
+  height: 16px;
+  width: 16px;
+}
+
+.imageSizeLarge {
+  height: 140px;
+  width: 140px;
+}
+
+.imageSizeSmall {
+  height: 100px;
+  width: 100px;
+}
+
+.iconBaseColor path {
+  fill: var(--light-text-1);
+}
+
+.iconColorPrimary > path,
+.iconColorPrimary > g > path {
+  stroke: var(--primary-color);
+}
+
+.iconColorPrimary:hover > path,
+.iconColorPrimary:hover > g > path {
+  stroke: var(--primary-color-hover);
+}
+
+.iconColorPrimary:active > path,
+.iconColorPrimary:active > g > path {
+  stroke: var(--primary-color-active);
+}
+
+.iconColorFillPrimary path {
+  fill: var(--primary-color);
+}
+
+.iconColorSecondary path {
+  stroke: var(--primary-color);
+}
+
+.iconColorSecondary:hover path {
+  stroke: var(--primary-color-hover);
+}
+
+.iconColorSecondary:active path {
+  stroke: var(--primary-color-active);
+}
+
+.iconColorInfo path {
+  stroke: var(--info-color);
+}
+
+.iconColorInfo:hover path {
+  stroke: var(--info-color-hover);
+}
+
+.iconColorInfo:active path {
+  stroke: var(--info-color-active);
+}
+
+.experimentalIcon path {
+  fill: var(--experimental-color);
+}
+
+.iconColorFillText2 > path {
+  fill: var(--light-text-2);
+}
+
+.iconColorFillText3 > path {
+  fill: var(--light-text-3);
+}
+
+.experimentalIcon circle {
+  stroke: var(--experimental-color);
+}
+
+.acentrik .toast-message {
+  vertical-align: middle;
+  min-height: 24px;
+  display: inline-block;
+  padding-left: var(--padding-3);
+}
+
+.acentrik .toast-btn-close {
+  padding-left: var(--padding-4);
+  align-self: center;
+}
+
+.acentrik .toast-btn-close path {
+  stroke-width: 3px;
+}
+
+.acentrik .Toastify__toast--error {
+  color: var(--danger-color-toast);
+  border: 1px solid var(--danger-color-border);
+  background-color: var(--danger-color-toast-background);
+}
+
+.acentrik .Toastify__toast--error .toast-btn-close path,
+.acentrik .Toastify__toast--error .toast-svg path {
+  stroke: var(--danger-color-toast);
+}
+
+.acentrik .Toastify__toast--success {
+  color: var(--success-color-toast);
+  border: 1px solid var(--success-color-border);
+  background-color: var(--success-color-toast-background);
+}
+
+.acentrik .Toastify__toast--success .toast-btn-close path,
+.acentrik .Toastify__toast--success .toast-svg path {
+  stroke: var(--success-color-toast);
+}
+
+.acentrik .Toastify__toast--info {
+  color: var(--info-color-toast);
+  border: 1px solid var(--info-color-border);
+  background-color: var(--info-color-toast-background);
+}
+
+.acentrik .Toastify__toast--info .toast-btn-close path,
+.acentrik .Toastify__toast--info .toast-svg circle {
+  stroke: var(--info-color-toast);
+}
+
+.acentrik .Toastify__toast--info .toast-svg path {
+  fill: var(--info-color-toast);
+}
+
+.acentrik .Toastify__toast--warning {
+  color: var(--warning-color-toast);
+  border: 1px solid var(--warning-color-border);
+  background-color: var(--warning-color-toast-background);
+}
+
+.acentrik .Toastify__toast--warning .toast-btn-close path,
+.acentrik .Toastify__toast--warning .toast-svg path,
+.acentrik .Toastify__toast--warning .toast-svg circle {
+  stroke: var(--warning-color-toast);
+}
+
+.acentrik .Toastify__close-button {
+  display: none;
+}
+
+.acentrik .acentrikLogoScale {
+  width: 230px;
+}
+
+.acentrik .acentrikLogoScaleShort {
+  width: 64px;
+  margin: 0px;
+}
+
+.acentrik .fancyWrapper {
+  margin: auto;
+  min-height: 70vh;
+}
+
+.acentrik .privateRouteCard {
+  margin: auto 0;
+  height: var(--content-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acentrik .fancyLoaderWrapper {
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.acentrik .icon-mail {
+  margin-top: 36px;
+}
+
+.acentrik-modal-backdrop .main-container,
+.acentrik-modal-backdrop .sidebar-drawer-container,
+.acentrik-modal-backdrop .main-header {
+  filter: blur(3px);
+}
+
+.acentrik-modal-backdrop .sidebar-drawer-container {
+  height: 100vh;
+  position: fixed;
+}
+
+.acentrik-modal-backdrop .main-container {
+  overflow-y: hidden;
+}
+
+.acentrik-background {
+  background-color: var(--acentrik-dark-grey-color);
+  background-image: url('../@images/acentrik/acentrik_dark_logo_full_large.svg');
+  background-position: center;
+  background-size: 191px 44px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
